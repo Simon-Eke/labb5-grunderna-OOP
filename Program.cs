@@ -11,8 +11,6 @@
             Circle circle1 = new Circle(5);
             circle1.GetArea();
 
-            // Sets the radius for areaOfCircle1 to 6
-            // Calculates and prints area by calling a method.
             circle1.radius = 6;
             circle1.GetArea();
 
@@ -20,6 +18,14 @@
             // Calculates and prints area
             Circle circle2 = new Circle(7);
             circle2.GetArea();
+
+            
+
+            // 
+            Sphere sphere1 = new Sphere(3);
+            sphere1.GetVolume();
+
+            
 
             Console.WriteLine("--------------Triangles!!--------------\n");
 
@@ -29,6 +35,7 @@
             triangle1.GetArea();
             triangle1.Get_TriangularPrism_Volume();
             triangle1.Get_TriangularPyramid_Volume();
+
 
         }
     }
