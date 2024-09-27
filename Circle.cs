@@ -27,13 +27,13 @@ namespace labb5_grunderna_OOP
         }
 
         // Method - Calculates and prints area based of _radius
-        public void GetArea()
+        public void GetCircleArea()
         {
             // Calculates the area r^2*pi
             double areaOfCircle = Math.Pow(_radius, 2) * pi;
 
             // Prints a string where {0} is the radius and {1:###.###} is the area with 3 decimal places
-            Console.WriteLine("The area of the circle with radii {0} is {1:###.###} \n({1})\n" , _radius, areaOfCircle);
+            Console.WriteLine("The area of the circle with radii {0} is {1:###.###} units squared\n({1})\n" , _radius, areaOfCircle);
         }
     }
 }

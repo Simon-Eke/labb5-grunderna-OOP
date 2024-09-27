@@ -21,7 +21,7 @@ namespace labb5_grunderna_OOP
             double volumeOfCircle = 4 * radiusCubed * pi / 3;
 
             // Prints a string where {0} is the radius and {1:####.###} is the volume with 3 decimal places
-            Console.WriteLine("The volume of the circle with radii {0} is {1:####.###} units cubed \n({1})\n", _radius, volumeOfCircle);
+            Console.WriteLine("The volume of the sphere with radii {0} is {1:####.###} units cubed \n({1})\n", _radius, volumeOfCircle);
         }
     }
 }

@@ -54,7 +54,7 @@ namespace labb5_grunderna_OOP
 
             double volumeOfPrism = areaOfTriangle * _depth;
             // Displays the volume.
-            Console.WriteLine($"The volume of your prism is {volumeOfPrism} cubed units\n");
+            Console.WriteLine($"The volume of your prism is {volumeOfPrism} units cubed \n");
         }
 
         // Method to calculate and display the Volume.
@@ -67,7 +67,7 @@ namespace labb5_grunderna_OOP
             double volumeOfPyramid = areaOfTriangle * _depth / 3;
 
             // Displays the volume rounded down to 3 decimal places.
-            Console.WriteLine("The volume of your pyramid is {0:###.###} cubed units\n" , volumeOfPyramid);
+            Console.WriteLine("The volume of your pyramid is {0:###.###} units cubed\n", volumeOfPyramid);
         }
 
     }
